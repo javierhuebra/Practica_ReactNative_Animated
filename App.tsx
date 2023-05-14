@@ -15,6 +15,8 @@ import Animacion2 from './src/components/Animacion2';
 import Animacion3 from './src/components/Animacion3';
 import Animacion4 from './src/components/Animacion4';
 import Animacion5 from './src/components/Animacion5';
+import Animacion6 from './src/components/Animacion6';
+import Animacion7 from './src/components/Animacion7';
 
 
 const App = () => {
@@ -34,6 +36,8 @@ const App = () => {
           <Animacion3 />
           <Animacion4 />
           <Animacion5 />
+          <Animacion6 />
+          <Animacion7 />
         </View>
       </ScrollView>
 

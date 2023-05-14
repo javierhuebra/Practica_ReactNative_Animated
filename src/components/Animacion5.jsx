@@ -1,4 +1,4 @@
-import Reac, { useState } from "react";
+import React, { useState } from "react";
 
 import { StyleSheet, View, Text, TouchableWithoutFeedback, Animated } from 'react-native'
 
@@ -50,7 +50,8 @@ const styles = StyleSheet.create({
         backgroundColor: 'yellow',
         justifyContent:'center',
         alignItems: 'center',
-        marginHorizontal: 10
+        marginHorizontal: 10,
+        marginBottom: 40
     },
 
     texto: {
