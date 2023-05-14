@@ -12,7 +12,7 @@ const Animacion7 = () => {
 
     useEffect(() => {
         Animated.loop(    // aca uso de nuevo loop para repetir infinitamente la sequence 
-        Animated.sequence([
+        Animated.sequence([  //ACA PUEDO USAR .parallel para hacer todas las animaciones al mismo tiempo
             Animated.timing( animacion1, {
                 toValue: 1,
                 duration: 1000,
